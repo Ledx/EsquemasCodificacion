@@ -10,13 +10,15 @@ def binAdec(numero_binario):
 
 def existenciaClanes(G,K):
     respuesta = []
+    clanes = []
     respuesta.append("Si")
-    respuesta.append("")
+    clanes.append(" ")
+    clanes.append(" ")
+    respuesta.append(clanes)
     return respuesta
 
-entrada = sys.argv[1]
-#print(entrada)
-#entrada = "e1.txt"
+#entrada = sys.argv[1]
+entrada = "e1.txt"
 ejemplarRAW = open(entrada,"r")
 cadena = ejemplarRAW.read()
 ejemplarRAW.close()
@@ -61,7 +63,7 @@ G.append(vertices)
 G.append(aristas)
 G.append(matriz)
 G.append(K)
-
+print(aristas)
 print("El número de vértices de G es: ",len(vertices))
 print("El número de aristas de G es: ",len(aristas))
 print("El valor de K es: ", K)
@@ -73,5 +75,5 @@ else:
     respuesta = existenciaClanes(G, K)
     print("¿Existe una partición de G tal que se forman dos clanes? ",respuesta[0])
     if respuesta[0] == "Si":
-        print("Clan 1 es: ",respuesta[1])
-        print("Clan 2 es: ",respuesta[1])
+        print("Clan 1 es: ",respuesta[1][0])
+        print("Clan 2 es: ",respuesta[1][1])
