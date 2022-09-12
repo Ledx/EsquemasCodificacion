@@ -12,4 +12,4 @@
    python Practica1.py archivo.txt 
    
    ```
-   donde los archivos disponibles por defecto son: e1.txt,e2.txt y e3.txt
+   donde los archivos disponibles por defecto son: e1.txt, e2.txt y e3.txt
