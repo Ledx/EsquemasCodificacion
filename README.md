@@ -1,8 +1,8 @@
-#Práctica 1 Complejidad computacional
+# Práctica 1 Complejidad computacional
 
-##Esquemas de codificación
+## Esquemas de codificación
 
-###Ejecución del programa
+### Ejecución del programa
 
 1. Instalar previamente un interprete de python 3 en la computadora
 2. Abrir una consola
