@@ -18,7 +18,7 @@ def existenciaClanes(G,K):
     return respuesta
 
 #entrada = sys.argv[1]
-entrada = "e1.txt"
+entrada = "e3.txt"
 ejemplarRAW = open(entrada,"r")
 cadena = ejemplarRAW.read()
 ejemplarRAW.close()
@@ -38,8 +38,8 @@ kStr = cadena[contadorParam*contadorParam*2:len(cadena)]
 
 for i in range (1,contadorParam+1):
     vertices.append(i)
-a=0
-b=contadorParam*2
+a = 0
+b = contadorParam*2
 for j in range (0,contadorParam):
     matriz.append(list(matrizStr[a:b][-contadorParam:]))
     matrizDup.append(list(matrizStr[a:b][-contadorParam:]))
