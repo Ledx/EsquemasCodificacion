@@ -57,7 +57,6 @@ def existenciaClanes(G,K):
 
 
 entrada = sys.argv[1]
-#entrada = "e1.txt"
 ejemplarRAW = open(entrada, "r")
 cadena = ejemplarRAW.read()
 ejemplarRAW.close()
