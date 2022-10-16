@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5489edb-0715-4f4d-91d1-0c734a5b1bf3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practica1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,9 @@
       <workItem from="1662936056534" duration="12374000" />
       <workItem from="1662997337624" duration="3655000" />
       <workItem from="1663013060573" duration="924000" />
-      <workItem from="1663038402444" duration="6434000" />
+      <workItem from="1663038402444" duration="8585000" />
+      <workItem from="1664245553583" duration="587000" />
+      <workItem from="1665218691399" duration="496000" />
     </task>
     <servers />
   </component>
@@ -81,6 +82,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/EsquemasCodificacion$Practica1.coverage" NAME="Practica1 Coverage Results" MODIFIED="1663061969405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EsquemasCodificacion$Practica1.coverage" NAME="Practica1 Coverage Results" MODIFIED="1663065449637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
